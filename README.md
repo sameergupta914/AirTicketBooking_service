@@ -2,6 +2,3 @@
 
 - High level design of the project
 ![alt text](image.png)
-
-- Database ER diagram
-![alt text](image-1.png)
