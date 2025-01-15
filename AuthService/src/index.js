@@ -19,6 +19,9 @@ const prepareAndStartServer=()=>{
     // if(process.env.DB_SYNC){
     //     db.sequelize.sync({alter:true});
     // }
+    app.get('/api/v1/home', (req, res)=>{
+        return res.json({ message: 'hitting the auth service from api gateway' });
+    })
     app.listen(PORT, ()=>{
         console.log(`server started on port: ${PORT}`);
     });
